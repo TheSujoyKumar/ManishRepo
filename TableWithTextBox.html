@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  width:100%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+table#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+table#t01 th {
+  background-color: black;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h2>Table with Text Boxes</h2>
+<p>Enter value as m*n</p>
+<p>m-Row number : n-Column number</p>
+<br>
+
+<table id="t01">
+  <tr>
+    <th>Row 0 -></th>
+    <th>Column 1</th>
+    <th>Column 2</th> 
+    <th>Column 3</th>
+    <th>Column 4</th>
+  </tr>
+  <tr>
+    <th>Row 1 -></th>
+	<td><input type="text" id="10" name="fname"></td>
+    <td><input type="text" id="11" name="fname"></td>
+    <td><input type="text" id="12" name="fname"></td>
+    <td><input type="text" id="13" name="fname"></td>
+  </tr>
+  <tr>
+    <th>Row 2 -></th>
+	<td><input type="text" id="20" name="fname"></td>
+    <td><input type="text" id="21" name="fname"></td>
+    <td><input type="text" id="22" name="fname"></td>
+    <td><input type="text" id="23" name="fname"></td>
+  </tr>
+  <tr>
+    <th>Row 3 -></th>
+	<td><input type="text" id="30" name="fname"></td>
+    <td><input type="text" id="31" name="fname"></td>
+    <td><input type="text" id="32" name="fname"></td>
+    <td><input type="text" id="33" name="fname"></td>
+  </tr>
+</table>
+
+</body>
+</html>
